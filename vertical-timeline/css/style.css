@@ -336,10 +336,10 @@ header h1 {
   }*/
   .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
     top: 24px;
-    left: auto;
+    /*left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: white;*/
   }
   /*.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
