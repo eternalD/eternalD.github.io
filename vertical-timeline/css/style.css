@@ -331,24 +331,24 @@ header h1 {
     font-size: 16px;
     font-size: 1rem;
   }
-  /*.cd-timeline-block:nth-child(even) .cd-timeline-content {
+  .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
-  }*/
+  }
   .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
     top: 24px;
-    /*left: auto;
+    left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;*/
+    border-right-color: white;
   }
-  /*.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
+  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
-  }*/
-  /*.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
     left: auto;
     right: 122%;
     text-align: right;
-  }*/
+  }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
   }
