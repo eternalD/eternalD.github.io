@@ -5,26 +5,26 @@ jQuery(document).ready(function($){
   var $filter_location = $('.filter-location');
 
   $filter_picture.click(function() {
-  	$(this).parent().parent().find('.cd-timeline-block').removeClass('is-hidden');
+  	$(this).parent().parent().find('.cd-timeline-block').removeClass('is-hidden').removeClass('bounce-in');
   	$(this).parent().parent().find('.cd-timeline-picture').removeClass('is-hidden');
-  	$(this).parent().parent().find('.cd-timeline-movie').addClass('is-hidden');
+  	$(this).parent().parent().find('.cd-timeline-movie').addClass('is-hidden').addClass('bounce-in');
   	$(this).parent().parent().find('.cd-timeline-location').addClass('is-hidden');
   });
 
   $filter_movie.click(function() {
   	
-  	$(this).parent().parent().find('.cd-timeline-block').removeClass('is-hidden');
+  	$(this).parent().parent().find('.cd-timeline-block').removeClass('is-hidden').removeClass('bounce-in');
   	$(this).parent().parent().find('.cd-timeline-picture').addClass('is-hidden');
-  	$(this).parent().parent().find('.cd-timeline-movie').removeClass('is-hidden');
+  	$(this).parent().parent().find('.cd-timeline-movie').removeClass('is-hidden').addClass('bounce-in');
   	$(this).parent().parent().find('.cd-timeline-location').addClass('is-hidden');
   });
 
   $filter_location.click(function() {
   	
-  	$(this).parent().parent().find('.cd-timeline-block').removeClass('is-hidden');
+  	$(this).parent().parent().find('.cd-timeline-block').removeClass('is-hidden').removeClass('bounce-in');
   	$(this).parent().parent().find('.cd-timeline-picture').addClass('is-hidden');
   	$(this).parent().parent().find('.cd-timeline-movie').addClass('is-hidden');
-  	$(this).parent().parent().find('.cd-timeline-location').removeClass('is-hidden');
+  	$(this).parent().parent().find('.cd-timeline-location').removeClass('is-hidden').addClass('bounce-in');
   });
 
 	//hide timeline blocks which are outside the viewport
