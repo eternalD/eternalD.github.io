@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
   	$(this).parent().parent().find('.cd-timeline-block').removeClass('is-hidden');
   	$(this).parent().parent().find('.cd-timeline-picture').addClass('is-hidden');
   	$(this).parent().parent().find('.cd-timeline-movie').addClass('is-hidden');
-  	$(this').parent().parent().find('.cd-timeline-location').removeClass('is-hidden');
+  	$(this).parent().parent().find('.cd-timeline-location').removeClass('is-hidden');
   });
 
 	//hide timeline blocks which are outside the viewport
