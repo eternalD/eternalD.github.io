@@ -1,0 +1,5431 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!DOCTYPE html>
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+    
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+<html class="aui ltr" dir="ltr" lang="fi-FI">
+
+<head>
+  <title>Henkilöasiakkaat - kela.fi</title>
+  
+  <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+  
+  <!--<link rel="stylesheet" href="css/style.css">--> <!-- Resource style -->
+  <style >
+    @font-face{font-family:'MetaWeb-Bold';src:url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Bold/MetaWeb-Bold.eot");
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Bold/MetaWeb-Bold.eot?#iefix") format("embedded-opentype"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Bold/MetaWeb-Bold.woff") format("woff");
+font-weight:bold;
+font-style:normal
+}
+@font-face{font-family:'MetaWeb-Normal';
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Normal/MetaWeb-Normal.eot");
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Normal/MetaWeb-Normal.eot?#iefix") format("embedded-opentype"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Normal/MetaWeb-Normal.woff") format("woff");
+font-weight:bold;
+font-style:normal
+}
+@font-face{font-family:"kela";
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.eot");
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.eot?#iefix") format("embedded-opentype"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.woff") format("woff"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.ttf") format("truetype"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.svg#kela") format("svg");
+font-weight:normal;
+font-style:normal
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face{font-family:"kela";src:url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.svg#kela") format("svg")
+}
+}
+  </style>
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+    <meta content="Kansaneläkelaitos, Kela, hoitaa Suomessa asuvien sosiaaliturvaa eri elämäntilanteissa." lang="fi-FI" name="description" />
+  
+
+  
+
+  
+
+
+
+<link href="http://www.kela.fi/kelafi-theme/images/favicon.ico" rel="Shortcut Icon" />
+
+
+
+
+
+  <link href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi" rel="canonical" />
+
+  
+
+
+
+
+
+<link class="lfr-css-file" href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kelafi-theme&#x2f;css&#x2f;aui&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;kelafi_WAR_kelafitheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;fi_FI&#x26;b&#x3d;6202&#x26;t&#x3d;1431461459000" rel="stylesheet" type="text/css" />
+
+<link href="&#x2f;html&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;kelafi_WAR_kelafitheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;fi_FI&#x26;b&#x3d;6202&#x26;t&#x3d;1431461457000" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+  
+
+        <link href="http://www.kela.fi/html/portlet/journal_content/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" rel="stylesheet" type="text/css" />
+
+  
+
+        <link href="http://www.kela.fi/html/portlet/asset_publisher/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" rel="stylesheet" type="text/css" />
+
+  
+
+        <link href="http://www.kela.fi/html/portlet/layouts_admin/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" rel="stylesheet" type="text/css" />
+
+  
+
+        <link href="http://www.kela.fi/html/portlet/journal/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" rel="stylesheet" type="text/css" />
+
+  
+
+        <link href="http://www.kela.fi/html/portlet/document_library/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" rel="stylesheet" type="text/css" />
+
+  
+
+        <link href="http://www.kela.fi/html/portlet/dynamic_data_mapping/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" rel="stylesheet" type="text/css" />
+
+  
+
+        <link href="http://www.kela.fi/html/portlet/search/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" rel="stylesheet" type="text/css" />
+
+  
+
+        <link href="http://www.kela.fi/html/portlet/document_library_display/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" rel="stylesheet" type="text/css" />
+
+  
+
+        <link href="http://www.kela.fi/notifications-portlet/notifications/css/main.css?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;minifierType=css&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469535000" rel="stylesheet" type="text/css" />
+
+  
+
+
+
+
+
+
+
+<script type="text/javascript">
+  // <![CDATA[
+    var Liferay = {
+      Browser: {
+        acceptsGzip: function() {
+          return true;
+        },
+        getMajorVersion: function() {
+          return 43.0;
+        },
+        getRevision: function() {
+          return "537.36";
+        },
+        getVersion: function() {
+          return "43.0";
+        },
+        isAir: function() {
+          return false;
+        },
+        isChrome: function() {
+          return true;
+        },
+        isFirefox: function() {
+          return false;
+        },
+        isGecko: function() {
+          return true;
+        },
+        isIe: function() {
+          return false;
+        },
+        isIphone: function() {
+          return false;
+        },
+        isLinux: function() {
+          return false;
+        },
+        isMac: function() {
+          return true;
+        },
+        isMobile: function() {
+          return false;
+        },
+        isMozilla: function() {
+          return false;
+        },
+        isOpera: function() {
+          return false;
+        },
+        isRtf: function() {
+          return true;
+        },
+        isSafari: function() {
+          return true;
+        },
+        isSun: function() {
+          return false;
+        },
+        isWap: function() {
+          return false;
+        },
+        isWapXhtml: function() {
+          return false;
+        },
+        isWebKit: function() {
+          return true;
+        },
+        isWindows: function() {
+          return false;
+        },
+        isWml: function() {
+          return false;
+        }
+      },
+
+      Data: {
+        NAV_SELECTOR: '#navigation',
+
+        isCustomizationView: function() {
+          return false;
+        },
+
+        notices: [
+          null
+
+          
+
+          
+        ]
+      },
+
+      ThemeDisplay: {
+        
+          getLayoutId: function() {
+            return "2428";
+          },
+          getLayoutURL: function() {
+            return "http://www.kela.fi/henkiloasiakkaat";
+          },
+          getParentLayoutId: function() {
+            return "0";
+          },
+          isPrivateLayout: function() {
+            return "false";
+          },
+          isVirtualLayout: function() {
+            return false;
+          },
+        
+
+        getBCP47LanguageId: function() {
+          return "fi-FI";
+        },
+        getCDNBaseURL: function() {
+          return "http://www.kela.fi";
+        },
+        getCDNDynamicResourcesHost: function() {
+          return "";
+        },
+        getCDNHost: function() {
+          return "";
+        },
+        getCompanyId: function() {
+          return "10154";
+        },
+        getCompanyGroupId: function() {
+          return "10192";
+        },
+        getDefaultLanguageId: function() {
+          return "fi_FI";
+        },
+        getDoAsUserIdEncoded: function() {
+          return "";
+        },
+        getLanguageId: function() {
+          return "fi_FI";
+        },
+        getParentGroupId: function() {
+          return "10180";
+        },
+        getPathContext: function() {
+          return "";
+        },
+        getPathImage: function() {
+          return "/image";
+        },
+        getPathJavaScript: function() {
+          return "/html/js";
+        },
+        getPathMain: function() {
+          return "/c";
+        },
+        getPathThemeImages: function() {
+          return "http://www.kela.fi/kelafi-theme/images";
+        },
+        getPathThemeRoot: function() {
+          return "/kelafi-theme";
+        },
+        getPlid: function() {
+          return "195035";
+        },
+        getPortalURL: function() {
+          return "http://www.kela.fi";
+        },
+        getPortletSetupShowBordersDefault: function() {
+          return false;
+        },
+        getScopeGroupId: function() {
+          return "10180";
+        },
+        getScopeGroupIdOrLiveGroupId: function() {
+          return "10180";
+        },
+        getSessionId: function() {
+          
+            
+            
+              return "";
+            
+          
+        },
+        getSiteGroupId: function() {
+          return "10180";
+        },
+        getURLControlPanel: function() {
+          return "/group/control_panel?refererPlid=195035";
+        },
+        getURLHome: function() {
+          return "http\x3a\x2f\x2fwww\x2ekela\x2efi\x2fweb\x2ffi";
+        },
+        getUserId: function() {
+          return "10158";
+        },
+        getUserName: function() {
+          
+            
+            
+              return "";
+            
+          
+        },
+        isAddSessionIdToURL: function() {
+          return false;
+        },
+        isFreeformLayout: function() {
+          return false;
+        },
+        isImpersonated: function() {
+          return false;
+        },
+        isSignedIn: function() {
+          return false;
+        },
+        isStateExclusive: function() {
+          return false;
+        },
+        isStateMaximized: function() {
+          return false;
+        },
+        isStatePopUp: function() {
+          return false;
+        }
+      },
+
+      PropsValues: {
+        NTLM_AUTH_ENABLED: false
+      }
+    };
+
+    var themeDisplay = Liferay.ThemeDisplay;
+
+    
+
+    Liferay.AUI = {
+      getAvailableLangPath: function() {
+        return 'available_languages.jsp?browserId=other&themeId=kelafi_WAR_kelafitheme&colorSchemeId=01&minifierType=js&languageId=fi_FI&b=6202&t=1432469522000';
+      },
+      getCombine: function() {
+        return true;
+      },
+      getComboPath: function() {
+        return '/combo/?browserId=other&minifierType=&languageId=fi_FI&b=6202&t=1432469522000&';
+      },
+      getFilter: function() {
+        
+          
+            return 'min';
+          
+          
+          
+        
+      },
+      getJavaScriptRootPath: function() {
+        return '/html/js';
+      },
+      getLangPath: function() {
+        return 'aui_lang.jsp?browserId=other&themeId=kelafi_WAR_kelafitheme&colorSchemeId=01&minifierType=js&languageId=fi_FI&b=6202&t=1432469522000';
+      }
+    };
+
+    Liferay.authToken = 'HLZ6QGPI';
+
+    
+
+    Liferay.currentURL = '\x2f';
+    Liferay.currentURLEncoded = '%2F';
+  // ]]>
+</script>
+
+
+  
+    
+      
+        <script src="/html/js/barebone.jsp?browserId=other&amp;themeId=kelafi_WAR_kelafitheme&amp;colorSchemeId=01&amp;minifierType=js&amp;minifierBundleId=javascript.barebone.files&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469522000" type="text/javascript"></script>
+      
+      
+    
+  
+  
+
+
+<script type="text/javascript">
+  // <![CDATA[
+    
+
+      
+
+      
+        Liferay.Portlet.list = ['56_INSTANCE_VE2XNR15fCb0', 'kelafiinheritedelementscontacts_WAR_inheritedelementscontacts', '56_INSTANCE_q49VCyJhaCkO', '101_INSTANCE_bXQwrAFx2FGH', '118_INSTANCE_LlLROCNFVWN9', '56_INSTANCE_VFQ3uisrdCZM', '101_INSTANCE_Wt5uugARYBl3', '71_INSTANCE_TLbvN5XZW6W1', '73_INSTANCE_82TqKVP6BvKl', '118_INSTANCE_c0M44e20556J', '101_INSTANCE_TLG7UPpOGlQu', '56_INSTANCE_JYukCP5fISwn', '56_INSTANCE_nPsoXDcqQGQ7', '56_INSTANCE_ZZ0vbWd9J3zW', '15', '56', '20', '3', '101', '110', '110_INSTANCE_T8ODXl19bdVO', '58'];
+      
+    
+
+    
+
+    
+  // ]]>
+</script>
+
+
+
+
+
+  
+    
+
+      
+
+      
+    
+    
+  
+
+
+
+  
+    
+    
+
+      
+
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+        <script src="http://www.kela.fi/html/portlet/journal/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" type="text/javascript"></script>
+
+  
+
+        <script src="http://www.kela.fi/html/portlet/journal/js/navigation.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" type="text/javascript"></script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kelafi-theme&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;kelafi_WAR_kelafitheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;fi_FI&#x26;b&#x3d;6202&#x26;t&#x3d;1431461459000" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+  <style type="text/css">
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_101_INSTANCE_bXQwrAFx2FGH_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_118_INSTANCE_LlLROCNFVWN9_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_56_INSTANCE_VFQ3uisrdCZM_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_101_INSTANCE_Wt5uugARYBl3_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_71_INSTANCE_TLbvN5XZW6W1_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_73_INSTANCE_82TqKVP6BvKl_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_101_INSTANCE_TLG7UPpOGlQu_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_56_INSTANCE_JYukCP5fISwn_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_56_INSTANCE_nPsoXDcqQGQ7_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_56_INSTANCE_ZZ0vbWd9J3zW_ .portlet-borderless-container {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+  </style>
+
+
+
+</head>
+
+<body class=" yui3-skin-sam controls-visible guest-site signed-out public-page site ">
+
+<a href="#main-content" class="sr-only sr-only-focusable">Siirry sisältöön</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="wrapper">
+    <header id="banner" role="banner">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="site-title">
+          <a class="logo custom-logo" href="/">
+            <img alt="kela.fi" height="52" src="http://www.kela.fi/image/layout_set_logo?img_id=2174196&amp;t=1432537035815" width="90" style="height: 52px" />
+          </a>  
+                  </div>
+                  <div class="language-links">
+    <ul class="breadcrumb">
+                    <li><a class="language-link" href="/web/sv"><span>På svenska</span><abbr title="På svenska">sv</abbr></a><span class="divider">/</span></li>
+                            <li><a class="language-link" href="/web/en"><span>In English</span><abbr title="In English">en</abbr></a><span class="divider">/</span></li>
+                            <li><a class="language-link" href="/web/sgn-fi"><span>Viittomakielellä</span><abbr title="Viittomakielellä">sgn-fi</abbr></a><span class="divider">/</span></li>
+                            </ul>
+</div>
+                <div class="site-search">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;henkiloasiakkaat&#x3f;p_p_id&#x3d;3&#x26;p_p_lifecycle&#x3d;0&#x26;p_p_state&#x3d;maximized&#x26;p_p_mode&#x3d;view&#x26;_3_struts_action&#x3d;&#x25;2Fsearch&#x25;2Fsearch&#x26;_3_redirect&#x3d;&#x25;2F" method="get" name="ctem_null_null_3_fm" onSubmit="ctem_null_null_3_search(); return false;">
+<input name="p_p_id" type="hidden" value="3" /><input name="p_p_lifecycle" type="hidden" value="0" /><input name="p_p_state" type="hidden" value="maximized" /><input name="p_p_mode" type="hidden" value="view" /><input name="_3_struts_action" type="hidden" value="&#x2f;search&#x2f;search" /><input name="_3_redirect" type="hidden" value="&#x2f;" />
+
+<input type="hidden" name="_3_groupId" value="10180" />
+<div class="input-append">
+<input name="_3_keywords" placeholder="Hae" title="Hae" type="text" value="" />
+
+<button class="btn btn-info btn-large" type="submit"><i class="icon-search"></i><span class="sr-only"> Hae</span></button>
+</div>
+</form>
+        </div>
+      </div> <!-- .row-fluid -->
+
+                  <nav class=" navbar site-navigation" id="navigation" role="navigation">
+  <div class="navbar-inner">
+          <div id="sign-in-wrapper" class="dropdown pull-right">
+    <button class="btn btn-success dropdown-toggle"><i class="icon-kela_lukko"></i> <span>Siirry asiointipalveluun</span></button>
+  <ul class="dropdown-menu">
+    <li><a href="https://easiointi.kela.fi/go_app" target="_blank">Henkil&ouml;asiakkaat <i class="icon-angle-right"></i></a></li>
+    <li><a href="/asiointi-tyonantajat" target="_self">Ty&ouml;nantajat <i class="icon-angle-right"></i></a></li>
+    <li><a href="/asiointi-yhteistyokumppanit" target="_self">Yhteisty&ouml;kumppanit <i class="icon-angle-right"></i></a></li>
+  </ul>
+</div>
+
+        <ul class="site-navigation-menubar" aria-label="Sivuston sivut" role="menubar">
+                
+                      
+                      
+          <li class="lfr-nav-item selected active dropdown btn-group" id="layout_2428" aria-selected='true' role="presentation">
+            <a class="btn btn-large btn-primary" href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;henkiloasiakkaat"  role="menuitem">
+              <span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Henkilöasiakkaat</span>
+            </a>
+  
+                          <button type="button" aria-haspopup='true' class="dropdown-toggle btn btn-large btn-primary"><i class="icon-plus-sign"></i><span class="sr-only">Henkilöasiakkaat -osion valikko</span></button>
+              <div class="dropdown-menu">
+                <div class="regular-links row-fluid">
+                  <div class="span8">
+                    <span>Aiheet</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div class="span6 first"><ul class="highlighted icons-ul">
+                                                                        <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lapsiperheet" >Lapsiperheet</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;opiskelijat" >Opiskelijat</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyottomat" >Työttömät</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asevelvolliset" >Asevelvolliset</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asumistuki" >Asumisen tuet</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;elakelaiset" >Eläkeläiset</a>
+                          </li>
+                                                                                </ul></div><div class="span6"><ul class="highlighted icons-ul">
+                                                                                                                          <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;sairastaminen" >Sairastaminen</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kuntoutus" >Kuntoutus</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;vammaistuet" >Vammaistuet</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;omaisenkuolema" >Omaisen kuolema</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;maasta-ja-maahanmuutto" >Maasta- ja maahanmuutto</a>
+                          </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul></div>
+                  </div>
+                  <div class="span4">
+                    <span>Lisätietoa</span>
+                    <ul class="highlighted icons-ul">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kela-kortti" >Kela-kortti</a>
+                          </li>
+                                                                                                <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;hyva-tietaa" >Hyvä tietää</a>
+                          </li>
+                                                                                                <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;ajankohtaista-henkiloasiakkaat" >Ajankohtaista henkilöasiakkaille</a>
+                          </li>
+                                                                                                <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;palvelunumerot" >Yhteystiedot henkilöasiakkaille</a>
+                          </li>
+                                                                                                                                                                                                            </ul>
+                  </div>
+                </div> <!-- .row-fluid -->
+                <div class="service-links">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <ul class="unstyled inline">
+                                                                    <li><i class="icon-kela_lukko"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asiointi">Asiointipalvelu</a></li>
+                                                                                                                                                                                                                          <li><i class="icon-kela_plusmiinus"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laskurit">Laskurit</a></li>
+                                                                                                                                                                                                                          <li><i class="icon-kela_kirjanen"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lomakkeet">Lomakkeet</a></li>
+                                                                                                              </ul>
+                                </div>
+              </div>
+                      </li>
+                        
+            
+                      
+          <li class="lfr-nav-item dropdown btn-group" id="layout_2429"  role="presentation">
+            <a class="btn btn-large btn-info" href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyonantajat"  role="menuitem">
+              <span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Työnantajat</span>
+            </a>
+  
+                          <button type="button" aria-haspopup='true' class="dropdown-toggle btn btn-large btn-info"><i class="icon-plus-sign"></i><span class="sr-only">Työnantajat -osion valikko</span></button>
+              <div class="dropdown-menu">
+                <div class="regular-links row-fluid">
+                  <div class="span8">
+                    <span>Aiheet</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="span6 first"><ul class="highlighted icons-ul">
+                                                                        <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyonantajan-maksut" >Työnantajan maksut</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyoterveyshuolto" >Työterveyshuolto</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;sairauspoissaolot" >Sairauspoissaolot</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyonantajat_kuntoutus" >Kuntoutus</a>
+                          </li>
+                                                                                </ul></div><div class="span6"><ul class="highlighted icons-ul">
+                                                                                                                          <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;perhevapaat" >Perhevapaat</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyohon-ulkomaille-tai-suomeen2" >Työhön ulkomaille tai Suomeen</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;elakkeet" >Eläkkeet</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyonantajan-hakemukset" >Hakemukset ja ilmoitukset</a>
+                          </li>
+                                                                                                                                                                                                                                                                                                                                                            </ul></div>
+                  </div>
+                  <div class="span4">
+                    <span>Lisätietoa</span>
+                    <ul class="highlighted icons-ul">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;ajankohtaista-tyonantajat" >Ajankohtaista työnantajille</a>
+                          </li>
+                                                                                                <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteystiedot-tyonantajat" >Yhteystiedot työnantajille</a>
+                          </li>
+                                                                                                                                                                                                            </ul>
+                  </div>
+                </div> <!-- .row-fluid -->
+                <div class="service-links">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <ul class="unstyled inline">
+                                                                    <li><i class="icon-kela_lukko"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asiointi-tyonantajat">Asiointipalvelut</a></li>
+                                                                                                                                                                                                                          <li><i class="icon-kela_plusmiinus"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laskurit-tyonantajat">Laskurit</a></li>
+                                                                                                                                                                                                                          <li><i class="icon-kela_kirjanen"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lomakkeet-tyonantajat">Lomakkeet</a></li>
+                                                                                                              </ul>
+                                </div>
+              </div>
+                      </li>
+                        
+            
+                      
+          <li class="lfr-nav-item dropdown btn-group" id="layout_2430"  role="presentation">
+            <a class="btn btn-large btn-info" href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteistyokumppanit"  role="menuitem">
+              <span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Yhteistyökumppanit</span>
+            </a>
+  
+                          <button type="button" aria-haspopup='true' class="dropdown-toggle btn btn-large btn-info"><i class="icon-plus-sign"></i><span class="sr-only">Yhteistyökumppanit -osion valikko</span></button>
+              <div class="dropdown-menu">
+                <div class="regular-links row-fluid">
+                  <div class="span8">
+                    <span>Aiheet</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="span6 first"><ul class="highlighted icons-ul">
+                                                                        <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laakarit" >Lääkärit ja terveydenhuolto</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kuntoutuspalvelut" >Kuntoutuspalvelut</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;paihdekuntoutuslaitokset" >Päihde­kuntoutus­­laitokset</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;apteekit" >Apteekit</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kuljetuspalvelut" >Kuljetuspalvelut</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tulkkauspalvelut" >Tulkkauspalvelut</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laakeyritykset" >Lääkeyritykset</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;sosiaalipalvelut2" >Sosiaalipalvelut</a>
+                          </li>
+                                                                                </ul></div><div class="span6"><ul class="highlighted icons-ul">
+                                                                                                                          <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kunnat" >Kunnat</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;paivahoidon-tuottajat" >Päivähoidon tuottajat</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;opintoetuudet" >Opintoetuudet</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kelaneuvonta" >Erityispalvelut</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;vakuutusyhtiot" >Vakuutusyhtiöt</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteispalvelu" >Yhteispalvelu</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;vuokranantajat" >Vuokranantajat</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;jarjestelmatoimittajat" >Järjestelmä­toimittajat</a>
+                          </li>
+                                                                                                                                                                                                                                                                                                                                                            </ul></div>
+                  </div>
+                  <div class="span4">
+                    <span>Lisätietoa</span>
+                    <ul class="highlighted icons-ul">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;ajankohtaista-yhteistyokumppanit" >Ajankohtaista yhteistyökumppaneille</a>
+                          </li>
+                                                                                                <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteystiedot-yhteistyokumppanit" >Yhteystiedot yhteistyökumppaneille</a>
+                          </li>
+                                                                                                                                                                                                            </ul>
+                  </div>
+                </div> <!-- .row-fluid -->
+                <div class="service-links">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <ul class="unstyled inline">
+                                                                    <li><i class="icon-kela_lukko"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asiointi-yhteistyokumppanit">Asiointipalvelut</a></li>
+                                                                                                                                                                                                                          <li><i class="icon-kela_plusmiinus"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laskurit-yhteistyokumppanit">Laskurit</a></li>
+                                                                                                                                                                                                                          <li><i class="icon-kela_kirjanen"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lomakkeet-yhteistyokumppanit">Lomakkeet</a></li>
+                                                                                                              </ul>
+                                </div>
+              </div>
+                      </li>
+                        
+            
+                      
+          <li class="lfr-nav-item dropdown btn-group" id="layout_2431"  role="presentation">
+            <a class="btn btn-large btn-info" href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tietoa-kelasta"  role="menuitem">
+              <span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Tietoa Kelasta</span>
+            </a>
+  
+                          <button type="button" aria-haspopup='true' class="dropdown-toggle btn btn-large btn-info"><i class="icon-plus-sign"></i><span class="sr-only">Tietoa Kelasta -osion valikko</span></button>
+              <div class="dropdown-menu">
+                <div class="regular-links row-fluid">
+                  <div class="span8">
+                    <span>Aiheet</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <div class="span6 first"><ul class="highlighted icons-ul">
+                                                                        <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;toiminta" >Toiminta</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;organisaatio" >Organisaatio</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lait-ja-ohjeet" >Lait ja ohjeet</a>
+                          </li>
+                                                                                                                                                                                                  <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;julkaisut" >Julkaisut</a>
+                          </li>
+                                                                                </ul></div><div class="span6"><ul class="highlighted icons-ul">
+                                                                                                                          <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;viestinta" >Viestintä</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tutkimus" >Tutkimus</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tilastot" >Tilastot</a>
+                          </li>
+                                                                                                                                                    <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kirjasto" >Kirjasto</a>
+                          </li>
+                                                                                                                                                                                                                  </ul></div>
+                  </div>
+                  <div class="span4">
+                    <span>Lisätietoa</span>
+                    <ul class="highlighted icons-ul">
+                                                                                                                                                                                                                  <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;rekrytoi" >Töihin Kelaan</a>
+                          </li>
+                                                                                                                                                                                                                                                                                                                                      <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;ajankohtaista" >Ajankohtaista</a>
+                          </li>
+                                                                                                <li>
+                            <i class="icon-chevron-right icon-li"></i><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteystiedot" >Yhteystiedot</a>
+                          </li>
+                                                                  </ul>
+                  </div>
+                </div> <!-- .row-fluid -->
+                <div class="service-links">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </div>
+              </div>
+                      </li>
+                  </ul>
+  </div>
+</nav>              </div> <!-- .container-fluid -->
+  </header>
+
+  <div id="content">
+                                                                                                                                                                  <div class="container-fluid">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+      
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="kelafi-alaetusivu-layout" id="main-content">
+  <div class="portlet-layout row-fluid">
+    <div class="portlet-column portlet-column-first span3" id="column-1">
+      <div class="portlet-dropzone portlet-column-content portlet-column-content-first" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_VE2XNR15fCb0_" >
+    <span id="p_56_INSTANCE_VE2XNR15fCb0"></span>
+
+
+
+  
+  
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        <div class="portlet-borderless-container" style="">
+          
+
+          
+
+
+  <div class="portlet-body">
+
+
+
+  
+    
+      
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+        
+
+        
+          
+          
+            
+
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        
+          
+
+            
+
+            
+
+            <div class="journal-content-article">
+              <aside role="complementary">
+  <div class="well">
+    <h2 class="shortcut-heading">
+    <i class="icon-kela_lukko"></i>
+          <span>Oikopolut</span> Asiointipalvelu</h2>
+      <p>Hae tukia verkossa. Pysy selvill&auml; omasta hakemustilanteestasi, etuustiedoistasi ja maksup&auml;ivist&auml;. Kirjaudu pankkitunnuksilla tai mobiilivarmenteella.</p>
+      <div id="shortcut-dropdown-wrapper" class="dropdown">
+        <button class="btn dropdown-toggle">Valitse asioinnin aihe <i class="icon-caret-down"></i></button>
+        <ul class="dropdown-menu">
+                      <li><a target="_blank" href="https://easiointi.kela.fi/go_app">Tarkista omat etuustietosi</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/eOTh/EOThApplication">Hae opintotukea</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/eotm/EOTmApplication">Palauta opintotuki</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/evrh/EVRhApplication?EL=VB">Hae &auml;itiysavustusta</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/ellh/LLHakeminenApplication">Hae lapsilis&auml;&auml;</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/evrh/EVRhApplication?EL=VR">Hae vanhempainp&auml;iv&auml;rahaa</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/etthm/ETThmApplication?sivu=HakeminenHakemusSivu">Hae ty&ouml;tt&ouml;myysp&auml;iv&auml;rahaa</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/ett2_app">Ilmoita ty&ouml;tt&ouml;myysajasta</a></li>
+                      <li><a target="_blank" href="https://asiointi.kela.fi/eEACh/ac/aloitus.faces">Hae eurooppalainen sairaanhoitokortti</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/eAYh/alku/hakemuksen_tyyppi.faces">Hae yleist&auml; asumistukea</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/esph">Hae sairausp&auml;iv&auml;rahaa</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/eKBh/kb/kuntoutusraha.faces">Hae kuntoutusrahaa</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/eMAHAh">Hae matkakorvausta</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/eVEGEh">Hae vanhuus- ja takuuel&auml;kett&auml;</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/eHALI">L&auml;het&auml; liite</a></li>
+                      <li><a target="_blank" href="https://easiointi.kela.fi/go_app">Muu asia</a></li>
+                  </ul>
+      </div>
+        <p><a href="/asiointi">Tutustu henkil&ouml;asiakkaiden asiointipalveluun <i class="icon-angle-right"></i></a></p>
+    <ul class="unstyled">
+      <li><i class="icon-kela_plusmiinus"></i><a href="/laskurit">Laskurit <i class="icon-angle-right"></i></a></li>
+      <li><i class="icon-kela_kirjanen"></i><a href="/lomakkeet">Paperilomakkeet <i class="icon-angle-right"></i></a></li>
+    </ul>
+  </div><!-- /.well -->
+</aside>
+            </div>
+
+            
+          
+          
+        
+      
+    
+  
+
+
+
+
+
+
+
+  
+    <div class="entry-links">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+          
+        
+      
+    
+  
+  
+
+
+
+  </div>
+
+        </div>
+
+        
+      
+    
+  
+
+
+  
+
+
+
+
+
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <div class="portlet-boundary portlet-boundary_kelafiinheritedelementscontacts_WAR_inheritedelementscontacts_  portlet-static portlet-static-end portlet-borderless kelafi-inherited-elements-contacts " id="p_p_id_kelafiinheritedelementscontacts_WAR_inheritedelementscontacts_" >
+    <span id="p_kelafiinheritedelementscontacts_WAR_inheritedelementscontacts"></span>
+
+
+
+  
+  
+  
+
+    
+
+      
+        
+          
+            
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        <div class="portlet-borderless-container" style="">
+          
+
+          
+
+
+  <div class="portlet-body">
+
+
+
+  
+    
+      
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+        
+
+        
+          
+          
+            
+
+
+  
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  <section class="contactslinklist">
+      <h2>Voimmeko auttaa?</h2>
+    <ul class="highlighted unstyled">
+          <li><i class="icon-chevron-right"></i> <a href="/kysy-kelasta">Kysy Kelasta</a></li>
+          <li><i class="icon-chevron-right"></i> <a href="/palvelunumerot">Puhelinpalvelu</a></li>
+          <li><i class="icon-chevron-right"></i> <a href="/toimistot">Toimistot</a></li>
+          <li><i class="icon-chevron-right"></i> <a href="/ajanvaraus">Ajanvaraus</a></li>
+          <li><i class="icon-chevron-right"></i> <a href="/postia-kelaan">Postia Kelaan</a></li>
+          <li><i class="icon-chevron-right"></i> <a href="/palvelut">Kaikki palvelut</a></li>
+      </ul>
+</section>
+
+
+
+
+
+  
+  
+
+          
+        
+      
+    
+  
+  
+
+
+
+  </div>
+
+        </div>
+
+        
+      
+    
+  
+
+        
+        
+      
+
+    
+
+  
+
+
+
+
+
+    
+  </div>
+
+
+
+
+</div>
+    </div>
+    <div class="portlet-column portlet-column-last span9" id="column-2" role="main">
+      <div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-2" style="">
+
+      <iframe src="http://eternalD.github.io/proto/iframe.html" seamless="seamless" style="height: 1800px; border: none">
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_q49VCyJhaCkO_" >
+    <span id="p_56_INSTANCE_q49VCyJhaCkO"></span>
+
+
+
+  
+  
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        <div class="portlet-borderless-container" style="">
+          
+
+          
+
+
+  <div class="portlet-body">
+
+
+
+  
+    
+      
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+        
+
+        
+          
+          
+            
+
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        
+          
+
+            
+
+            
+
+            <div class="journal-content-article">
+              <div class="row-fluid"></div>
+
+            </div>
+
+            
+          
+          
+        
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+          
+        
+      
+    
+  
+  
+
+
+
+  </div>
+
+        </div>
+
+        
+      
+    
+  
+
+
+  
+
+
+
+
+
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <div class="portlet-boundary portlet-boundary_101_  portlet-static portlet-static-end portlet-borderless portlet-asset-publisher " id="p_p_id_101_INSTANCE_bXQwrAFx2FGH_" >
+    <span id="p_101_INSTANCE_bXQwrAFx2FGH"></span>
+
+
+
+  
+  
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        <div class="portlet-borderless-container" style="">
+          
+
+          
+
+
+  <div class="portlet-body">
+
+
+
+  
+    
+      
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+        
+
+        
+          
+          
+            
+
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    <div class="lfr-meta-actions add-asset-selector">
+      
+
+
+
+
+    </div>
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+    
+      
+        
+
+      
+      
+    
+
+
+  
+  
+
+
+
+<div class="subscribe-action">
+  
+
+  
+</div>
+
+
+  
+
+          
+        
+      
+    
+  
+  
+
+
+
+  </div>
+
+        </div>
+
+        
+      
+    
+  
+
+
+  
+
+
+
+
+
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <div class="portlet-boundary portlet-boundary_118_  portlet-static portlet-static-end portlet-borderless portlet-nested-portlets " id="p_p_id_118_INSTANCE_LlLROCNFVWN9_" >
+    <span id="p_118_INSTANCE_LlLROCNFVWN9"></span>
+
+
+
+  
+  
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        <div class="portlet-borderless-container" style="">
+          
+
+          
+
+
+  <div class="portlet-body">
+
+
+
+  
+    
+      
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+        
+
+        
+          
+          
+            
+
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="kelafi-nestedportlet-layout" id="_118_INSTANCE_LlLROCNFVWN9_main-content">
+  <div class="row-fluid">
+    <div class="span6" id="_118_INSTANCE_LlLROCNFVWN9_column-1">
+      <div class="portlet-dropzone empty" id="layout-column__118_INSTANCE_LlLROCNFVWN9__column-1"></div>
+    </div>
+    <div class="span6" id="_118_INSTANCE_LlLROCNFVWN9_column-2">
+      <div class="portlet-dropzone empty" id="layout-column__118_INSTANCE_LlLROCNFVWN9__column-2"></div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+          
+        
+      
+    
+  
+  
+
+
+
+  </div>
+
+        </div>
+
+        
+      
+    
+  
+
+
+  
+
+
+
+
+
+    
+  </div>
+
+
+
+
+</div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="portlet-layout">
+    <div class="portlet-column portlet-column-only" id="column-3">
+      <div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-3">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_VFQ3uisrdCZM_" >
+    <span id="p_56_INSTANCE_VFQ3uisrdCZM"></span>
+
+
+
+  
+  
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        <div class="portlet-borderless-container" style="">
+          
+
+          
+
+
+  <div class="portlet-body">
+
+
+
+  
+    
+      
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+        
+
+        
+          
+          
+            
+
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+    
+
+    
+      
+      
+
+        
+
+        
+          
+
+            
+
+            
+
+            <div class="journal-content-article">
+              <aside class="carousel-wrapper" role="complementary">
+  <div class="container-fluid">
+    <h1 class="carousel-heading"><span class="carousel-heading-s">Kiinnostavaa juuri nyt</span></h1>
+    <p class="carousel-ingress">Katso vinkit asiointiin, tutustu muutoksiin ja lue ohjeet etuuksien hakemiseen!</p>
+    <div id="carousel-image-text-horizontal" class="touchcarousel three-d">
+      <ul class="touchcarousel-container">
+        <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117831&t=1429876534200" alt="&Auml;itiyspakkaus2015 ja Kela-Kerttu" />
+            <a href="http://www.facebook.com/kela-kerttu"  target="_blank" >
+              <h2>Kela-Kerttu Facebookissa</h2>
+            </a>
+            <p>Kela-Kerttu tarjoaa vinkkejä ja ajankohtaista Kela-tietoa pienten lasten vanhemmille. Tykkää Kela-Kertun Facebook-sivusta!</p>
+          </article>
+        </li>
+        <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117832&t=1429876534265" alt="El&auml;m&auml;ss&auml;-opas ilmestynyt" />
+            <a href="http://www.kela.fi/elamassa"  target="_blank" >
+              <h2>Uusi opas Kelan tukiin</h2>
+            </a>
+            <p>Kelan tuet ja palvelut yksissä kansissa. Erityisesti sinulle, joka et ole verkossa. Saatavilla muun muassa Kelan palvelupisteistä.</p>
+          </article>
+        </li>
+        <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117833&t=1429876534322" alt="Kela tarjoaa et&auml;palvelua ty&ouml;tt&ouml;myysajan ilmoituksen t&auml;ytt&auml;misess&auml;" />
+            <a href="/asiointipalvelun-tuki-tyottomyysajan-ilmoitus"  target="_blank" >
+              <h2>Tarvitsetko apua ty&ouml;tt&ouml;myysturva-asioissa?</h2>
+            </a>
+            <p>Voit ottaa maksutta tietokoneella kuvayhteyden palveluneuvojaan, jos tarvitset neuvoja työttömyysturva-asioissa. Ensimmäinen vapautuva palveluneuvoja vastaa yhteydenottoosi.</p>
+          </article>
+        </li>
+                      <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117834&t=1429876534345" alt="Kysy Kelasta -keskustelupalstoilla vastataan joka arkip&auml;iv&auml;." />
+            <a href="/asiointi"  target="_blank" >
+              <h2>Kysy Kelasta - vastaamme verkossa</h2>
+            </a>
+            <p>Kysy Kelasta -keskustelupalstoilla vastataan opiskelijoiden ja lapsiperheiden kysymyksiin.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117835&t=1429876534394" alt="Sosiaalivakuutus verkkolehten&auml;" />
+            <a href="http://sosiaalivakuutus.fi/"  target="_blank" >
+              <h2>Taustoittavaa tietoa sosiaaliturvasta</h2>
+            </a>
+            <p>Sosiaalivakuutuksen verkkolehti on uudistunut. 4 kertaa vuodessa ilmestyvä sidosryhmälehti sai rinnalleen monipuolisen verkkopainoksen.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117836&t=1429876534427" alt="Kela tarjoaa et&auml;palvelua eri kielilla" />
+            <a href="/etapalvelu"  target="_blank" >
+              <h2>Et&auml;palvelua eri kielill&auml;</h2>
+            </a>
+            <p>Maaliskuun alusta alkaen Kela tarjoaa etäpalvelua englanniksi, venäjäksi, saameksi ja kurdiksi. Tutustu etäpalveluun!</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117837&t=1429876534446" alt="Yhdell&auml; vilkaisulla" />
+            <a href="/asiointi"  target="_blank" >
+              <h2>Kela-asiat yhdell&auml; vilkaisulla!</h2>
+            </a>
+            <p>Kelan uudistuneessa asiointipalvelussa näet yhdellä vilkaisulla mm. uusimmat päätöksesi, muistutukset ja etuuksien maksupäivät.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117838&t=1429876534477" alt="Kela piffaa!" />
+            <a href="/opintolainahyvitys"  target="_blank" >
+              <h2>Kela piffaa jopa kolmasosan opintolainastasi!</h2>
+            </a>
+            <p>Opintolainahyvitys on uusi opintoetuus opiskelijalle, joka aloittaa ensimmäiset opintonsa korkeakoulussa syksyllä 2014 tai myöhemmin.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117839&t=1429876534561" alt="Kanta-logo" />
+            <a href="http://www.kanta.fi/omakanta"  target="_blank" >
+              <h2>L&auml;&auml;kereseptit hukassa?</h2>
+            </a>
+            <p>Ei enää. Voit tarkastella omia sähköisiä reseptejäsi vaikka kotikoneelta Omakanta-nettipalvelun kautta.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117840&t=1429876534596" alt="Ty&ouml;komennus ulkomaille" />
+            <a href="http://www.kela.fi/documents/10180/1169692/Esite_tyokomennus_ulkomaille_kela_etk.pdf/48e1dadb-76b7-4c8f-ae57-4c594f601f5f"  target="_blank" >
+              <h2>T&ouml;ihin ulkomaille?</h2>
+            </a>
+            <p>Työkomennus ulkomaille voi vaikuttaa niin työntekijän kuin perheenkin Kela-etuuksiin, eläkkeisiin ja verotukseen. Uusittuun esitteeseen on koottu keskeiset asiat myös siitä, miten työkomennuksen aikana saa sairaanhoitoa Suomessa ja ulkomailla.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117841&t=1429876534640" alt="Nainen hymyilee" />
+            <a href="/kampanja-asioi-verkossa"  target="_blank" >
+              <h2>Kelan tuki nopeammin?</h2>
+            </a>
+            <p>Täytä hakemus ja lähetä liitteet netissä. Kirjaudu asiointipalveluun verkkopankkitunnuksillasi.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117842&t=1429876534665" alt="Nainen viittoo" />
+            <a href="/kuvayhteys"  target="_blank" >
+              <h2>Tulkkaustilauksen voi tehd&auml; kotikoneelta</h2>
+            </a>
+            <p>Vammaisten tulkkauspalvelukeskuksen asiakkaat voivat tilata tulkin kuvayhteyden avulla esim. viittomakielellä.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117843&t=1429876534720" alt="Asumistuen muutokset 1.1.2015" />
+            <a href="https://easiointi.kela.fi/aylaskenta_app/AYLaskentaApplication?&lang=fi"  target="_blank" >
+              <h2>Yleinen asumistuki uudistuu</h2>
+            </a>
+            <p>Uusi laki yleisestä asumistuesta tulee voimaan 1.1.2015. Tuen maksu jatkuu katkotta. Kela tarkistaa asumistuen seuraavassa väli- tai vuositarkistuksessa vuoden 2015 aikana. Voit arvioida tuen uuden määrän laskurilla.</p>
+          </article>
+        </li>
+                <li class="touchcarousel-item">
+          <article>
+            <img src="/image/journal/article?img_id=2117844&t=1429876534755" alt="Infopankin logo" />
+            <a href="http://www.infopankki.fi"  target="_blank" >
+              <h2>Tietoa sosiaaliturva-asioista 12 eri kielell&auml; Infopankista</h2>
+            </a>
+            <p>Lue tietoa Suomessa asumisesta, palveluista ja Kelan etuuksista. Kielinä suomi, ruotsi, englanti, viro, ranska, venäjä, somali, turkki, arabia, persia, kiina ja espanja.</p>
+          </article>
+        </li>
+                    </ul>
+    </div><!-- /carousel-image-text-horizontal -->
+  </div><!-- /.container-fluid -->
+</aside><!-- /.carousel-wrapper -->
+            </div>
+
+            
+          
+          
+        
+      
+    
+  
+
+
+
+
+
+
+
+  
+    <div class="entry-links">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+          
+        
+      
+    
+  
+  
+
+
+
+  </div>
+
+        </div>
+
+        
+      
+    
+  
+
+
+  
+
+
+
+
+
+    
+  </div>
+
+
+
+
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+
+
+<form action="#" id="hrefFm" method="post" name="hrefFm">
+  <span></span>
+</form>
+      </div> <!-- #content -->
+
+                  <div id="bottom-navigation">
+  <nav class="container-fluid" role="navigation">
+      <h1 class="sr-only">Sivustonavigaatio</h1>
+      <div class="row-fluid">
+                            <section class="span3">
+                <h2><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;henkiloasiakkaat">Henkilöasiakkaat</a></h2>
+                      <ul class="unstyled highlighted">
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lapsiperheet">Lapsiperheet</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;opiskelijat">Opiskelijat</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyottomat">Työttömät</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asevelvolliset">Asevelvolliset</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asumistuki">Asumisen tuet</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;elakelaiset">Eläkeläiset</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;sairastaminen">Sairastaminen</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kuntoutus">Kuntoutus</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;vammaistuet">Vammaistuet</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;omaisenkuolema">Omaisen kuolema</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;maasta-ja-maahanmuutto">Maasta- ja maahanmuutto</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kela-kortti">Kela-kortti</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;hyva-tietaa">Hyvä tietää</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;ajankohtaista-henkiloasiakkaat">Ajankohtaista henkilöasiakkaille</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;palvelunumerot">Yhteystiedot henkilöasiakkaille</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asiointi">Asiointipalvelu</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laskurit">Laskurit</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lomakkeet">Lomakkeet</a></li>
+                        </ul>
+                        </section>
+                                      <section class="span3">
+                <h2><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyonantajat">Työnantajat</a></h2>
+                      <ul class="unstyled highlighted">
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyonantajan-maksut">Työnantajan maksut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyoterveyshuolto">Työterveyshuolto</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;sairauspoissaolot">Sairauspoissaolot</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyonantajat_kuntoutus">Kuntoutus</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;perhevapaat">Perhevapaat</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyohon-ulkomaille-tai-suomeen2">Työhön ulkomaille tai Suomeen</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;elakkeet">Eläkkeet</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tyonantajan-hakemukset">Hakemukset ja ilmoitukset</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;ajankohtaista-tyonantajat">Ajankohtaista työnantajille</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteystiedot-tyonantajat">Yhteystiedot työnantajille</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asiointi-tyonantajat">Asiointipalvelut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laskurit-tyonantajat">Laskurit</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lomakkeet-tyonantajat">Lomakkeet</a></li>
+                        </ul>
+                        </section>
+                                      <section class="span3">
+                <h2><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteistyokumppanit">Yhteistyökumppanit</a></h2>
+                      <ul class="unstyled highlighted">
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laakarit">Lääkärit ja terveydenhuolto</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kuntoutuspalvelut">Kuntoutuspalvelut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;paihdekuntoutuslaitokset">Päihde­kuntoutus­­laitokset</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;apteekit">Apteekit</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kuljetuspalvelut">Kuljetuspalvelut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tulkkauspalvelut">Tulkkauspalvelut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laakeyritykset">Lääkeyritykset</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;sosiaalipalvelut2">Sosiaalipalvelut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kunnat">Kunnat</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;paivahoidon-tuottajat">Päivähoidon tuottajat</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;opintoetuudet">Opintoetuudet</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kelaneuvonta">Erityispalvelut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;vakuutusyhtiot">Vakuutusyhtiöt</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteispalvelu">Yhteispalvelu</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;vuokranantajat">Vuokranantajat</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;jarjestelmatoimittajat">Järjestelmä­toimittajat</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;ajankohtaista-yhteistyokumppanit">Ajankohtaista yhteistyökumppaneille</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteystiedot-yhteistyokumppanit">Yhteystiedot yhteistyökumppaneille</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;asiointi-yhteistyokumppanit">Asiointipalvelut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;laskurit-yhteistyokumppanit">Laskurit</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lomakkeet-yhteistyokumppanit">Lomakkeet</a></li>
+                        </ul>
+                        </section>
+                                      <section class="span3">
+                <h2><a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tietoa-kelasta">Tietoa Kelasta</a></h2>
+                      <ul class="unstyled highlighted">
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;toiminta">Toiminta</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;organisaatio">Organisaatio</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;lait-ja-ohjeet">Lait ja ohjeet</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;rekrytoi">Töihin Kelaan</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;julkaisut">Julkaisut</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;viestinta">Viestintä</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tutkimus">Tutkimus</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;tilastot">Tilastot</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;kirjasto">Kirjasto</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;ajankohtaista">Ajankohtaista</a></li>
+                          <li><i class="icon-chevron-right"></i> <a href="http&#x3a;&#x2f;&#x2f;www&#x2e;kela&#x2e;fi&#x2f;yhteystiedot">Yhteystiedot</a></li>
+                        </ul>
+                        </section>
+                      </div><!-- /.row-fluid -->
+    </nav><!-- /.container-fluid -->
+</div><!-- /#bottom-navigation -->        
+  <footer id="footer" role="contentinfo">
+    <div class="container-fluid">
+              <div class="row-fluid">
+  <div class="span6">
+    <section>
+      <h2>L&ouml;yd&auml;t Kelan seuraavista palveluista:</h2>
+      <ul class="somelinks unstyled">
+                                                                    <li><a href="https://twitter.com/Kela_uutiset"  target="_blank" ><i class="icon-twitter icon-2x"></i> Kela</a></li>
+                                                                    <li><a href="https://www.facebook.com/kelakerttu"  target="_blank" ><i class="icon-facebook icon-2x"></i> Kela-Kerttu</a></li>
+                                                                    <li><a href="https://www.facebook.com/opintotuki"  target="_blank" ><i class="icon-facebook icon-2x"></i> Opintotuki</a></li>
+                                                                    <li><a href="http://www.youtube.com/user/Kelakanava"  target="_blank" ><i class="icon-youtube icon-2x"></i> Kelakanava</a></li>
+                                                                    <li><a href="http://www.linkedin.com/company/kela"  target="_blank" ><i class="icon-linkedin icon-2x"></i> Kela</a></li>
+              </ul>
+    </section>
+  </div>
+  <div class="span3">
+    <section>
+      <h2>Muut linkit</h2>
+      <ul class="highlighted unstyled">
+                  <li><i class="icon-chevron-right"></i> <a href="/hakemisto"  >Hakemisto</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/sivukartta"  >Sivukartta</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/kayttoehdot-ja-ohjeet"  >K&auml;ytt&ouml;ehdot ja ohjeet</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/evasteiden-kaytto "  >Ev&auml;steiden k&auml;ytt&ouml;</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/verkkotoimitus"  >Verkkotoimitus</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/muutkielet"  >Other languages</a></li>
+              </ul>
+    </section>
+  </div>
+  <div class="span3">
+    <section>
+      <h2><a href="/yhteystiedot">Yhteystiedot</a></h2>
+      <ul class="highlighted unstyled">
+                  <li><i class="icon-chevron-right"></i> <a href="/palvelunumerot"  >Henkil&ouml;asiakkaat</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/yhteystiedot-tyonantajat"  >Ty&ouml;nantajat</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/yhteystiedot-yhteistyokumppanit"  >Yhteisty&ouml;kumppanit</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/yhteystiedot-hallinto"  >Hallinto</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/web/sgn-fi/yhteystiedot"  >Viittomakielell&auml;</a></li>
+                  <li><i class="icon-chevron-right"></i> <a href="/palaute"  >Anna palautetta</a></li>
+              </ul>
+    </section>
+    <p><a href="/kayttoehdot-ja-ohjeet">&copy; Kansanel&auml;kelaitos</a></p>
+  </div>
+</div>
+          </div>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="http://www.kela.fi/kelafi-theme/js/jquery-1.8.3.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+        <script src="http://www.kela.fi/html/portlet/layouts_admin/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" type="text/javascript"></script>
+
+  
+
+        <script src="http://www.kela.fi/html/portlet/dynamic_data_lists/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" type="text/javascript"></script>
+
+  
+
+        <script src="http://www.kela.fi/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" type="text/javascript"></script>
+
+  
+
+        <script src="http://www.kela.fi/html/portlet/document_library/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" type="text/javascript"></script>
+
+  
+
+        <script src="http://www.kela.fi/html/portlet/document_library/js/upload.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469562000" type="text/javascript"></script>
+
+  
+
+        <script src="http://www.kela.fi/notifications-portlet/notifications/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1432469535000" type="text/javascript"></script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+  Liferay.Util.addInputFocus();
+
+  
+
+  
+    
+    
+
+      
+
+      
+    
+  
+
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+    
+
+    
+  
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+      Liferay.Portlet.onLoad(
+        {
+          canEditTitle: false,
+          columnPos: 0,
+          isStatic: 'end',
+          namespacedId: 'p_p_id_56_INSTANCE_q49VCyJhaCkO_',
+          portletId: '56_INSTANCE_q49VCyJhaCkO',
+          refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d195035\x26p_p_id\x3d56_INSTANCE_q49VCyJhaCkO\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+        }
+      );
+    
+  function ctem_null_null_3_search() {
+    var keywords = document.ctem_null_null_3_fm._3_keywords.value;
+
+    keywords = keywords.replace(/^\s+|\s+$/, '');
+
+    if (keywords != '') {
+      submitForm(document.ctem_null_null_3_fm);
+    }
+  }
+
+      Liferay.Portlet.onLoad(
+        {
+          canEditTitle: false,
+          columnPos: 2,
+          isStatic: 'end',
+          namespacedId: 'p_p_id_118_INSTANCE_LlLROCNFVWN9_',
+          portletId: '118_INSTANCE_LlLROCNFVWN9',
+          refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d195035\x26p_p_id\x3d118_INSTANCE_LlLROCNFVWN9\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+        }
+      );
+    
+      Liferay.Portlet.onLoad(
+        {
+          canEditTitle: false,
+          columnPos: 0,
+          isStatic: 'end',
+          namespacedId: 'p_p_id_56_INSTANCE_VE2XNR15fCb0_',
+          portletId: '56_INSTANCE_VE2XNR15fCb0',
+          refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d195035\x26p_p_id\x3d56_INSTANCE_VE2XNR15fCb0\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+        }
+      );
+    
+      Liferay.Portlet.onLoad(
+        {
+          canEditTitle: false,
+          columnPos: 1,
+          isStatic: 'end',
+          namespacedId: 'p_p_id_101_INSTANCE_bXQwrAFx2FGH_',
+          portletId: '101_INSTANCE_bXQwrAFx2FGH',
+          refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d195035\x26p_p_id\x3d101_INSTANCE_bXQwrAFx2FGH\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+        }
+      );
+    
+      Liferay.Portlet.onLoad(
+        {
+          canEditTitle: false,
+          columnPos: 1,
+          isStatic: 'end',
+          namespacedId: 'p_p_id_kelafiinheritedelementscontacts_WAR_inheritedelementscontacts_',
+          portletId: 'kelafiinheritedelementscontacts_WAR_inheritedelementscontacts',
+          refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d195035\x26p_p_id\x3dkelafiinheritedelementscontacts_WAR_inheritedelementscontacts\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+        }
+      );
+    
+      Liferay.Portlet.onLoad(
+        {
+          canEditTitle: false,
+          columnPos: 0,
+          isStatic: 'end',
+          namespacedId: 'p_p_id_56_INSTANCE_VFQ3uisrdCZM_',
+          portletId: '56_INSTANCE_VFQ3uisrdCZM',
+          refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d195035\x26p_p_id\x3d56_INSTANCE_VFQ3uisrdCZM\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-3\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+        }
+      );
+    AUI().use('aui-base', 'liferay-menu', 'liferay-notice', 'liferay-poller', 'liferay-session', function(A) {(function() {
+  Liferay.Util.addInputType();
+
+  Liferay.Portlet.ready(
+    function(portletId, node) {
+      Liferay.Util.addInputType(node);
+    }
+  );
+
+  if (A.UA.mobile) {
+    Liferay.Util.addInputCancel();
+  }
+})();(function() {
+  new Liferay.Menu();
+
+  var liferayNotices = Liferay.Data.notices;
+
+  for (var i = 1; i < liferayNotices.length; i++) {
+    new Liferay.Notice(liferayNotices[i]);
+  }
+
+  
+})();(function() {
+      Liferay.Session = new Liferay.SessionBase(
+        {
+          autoExtend: true,
+          sessionLength: 30,
+          redirectOnExpire: false,
+          redirectUrl: 'http\x3a\x2f\x2fwww\x2ekela\x2efi\x2fweb\x2ffi',
+          warningLength: 1
+        }
+      );
+
+      
+    })();});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script src="http://www.kela.fi/kelafi-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=fi_FI&amp;b=6202&amp;t=1431461459000" type="text/javascript"></script>
+
+
+
+  
+
+  
+
+  <script type="text/javascript">
+    // <![CDATA[
+      
+
+      if(1>(Math.random()*2.5))setTimeout(function(){
+var t="script",d=document,e=d.createElement(t),f=d.getElementsByTagName(t)[0];
+e.async=1;e.src="//survey.interquest.com/cgi/invite?id=d6ba37133c13953a&js20";
+f.parentNode.insertBefore(e,f);},1);
+    // ]]>
+  </script>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<script src="http://www.kela.fi/kelafi-theme/js/google_analytics_ua_22042015.js"></script>
+<script src="http://www.kela.fi/kelafi-theme/js/touchcarousel/jquery.touchcarousel-1.1.min.js"></script>
+</body>
+
+</html>
+
