@@ -181,8 +181,36 @@
   <title>Henkilöasiakkaat - kela.fi</title>
   
   <meta content="initial-scale=1.0, width=device-width" name="viewport" />
-  <base href="http://www.kela.fi" >
+  
   <!--<link rel="stylesheet" href="css/style.css">--> <!-- Resource style -->
+  <style >
+    @font-face{font-family:'MetaWeb-Bold';src:url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Bold/MetaWeb-Bold.eot");
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Bold/MetaWeb-Bold.eot?#iefix") format("embedded-opentype"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Bold/MetaWeb-Bold.woff") format("woff");
+font-weight:bold;
+font-style:normal
+}
+@font-face{font-family:'MetaWeb-Normal';
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Normal/MetaWeb-Normal.eot");
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Normal/MetaWeb-Normal.eot?#iefix") format("embedded-opentype"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/MetaWeb-Normal/MetaWeb-Normal.woff") format("woff");
+font-weight:bold;
+font-style:normal
+}
+@font-face{font-family:"kela";
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.eot");
+src:url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.eot?#iefix") format("embedded-opentype"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.woff") format("woff"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.ttf") format("truetype"),
+url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.svg#kela") format("svg");
+font-weight:normal;
+font-style:normal
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face{font-family:"kela";src:url("http://www.kela.fi/kelafi-theme/css/../fonts/KelaWeb/kela.svg#kela") format("svg")
+}
+}
+  </style>
   <script src="js/modernizr.js"></script> <!-- Modernizr -->
  
 
@@ -1166,7 +1194,7 @@ border-style:
       <div class="row-fluid">
         <div class="site-title">
           <a class="logo custom-logo" href="/">
-            <img alt="kela.fi" height="52" src="/image/layout_set_logo?img_id=2174196&amp;t=1432537035815" width="90" style="height: 52px" />
+            <img alt="kela.fi" height="52" src="http://www.kela.fi/image/layout_set_logo?img_id=2174196&amp;t=1432537035815" width="90" style="height: 52px" />
           </a>  
                   </div>
                   <div class="language-links">
