@@ -16,15 +16,15 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;
-  color: #7f8c97;
+  font-family: Arial,"Helvetica Neue","HelveticaNeue",Helvetica,"Lucida Grande",sans-serif;
+  color: #2a2a2a;
   background-color: #fff;
 }
 
 a {
   color: #acb7c0;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial,"Helvetica Neue","HelveticaNeue",Helvetica,"Lucida Grande",sans-serif;
 }
 
 img {
@@ -32,7 +32,7 @@ img {
 }
 
 h1, h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "MetaWeb-Bold",Arial,"Helvetica Neue","HelveticaNeue",Helvetica,"Lucida Grande",sans-serif;
   font-weight: bold;
 }
 
