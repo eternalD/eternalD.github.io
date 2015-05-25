@@ -181,6 +181,11 @@ header h1 {
   background: #f0ca45 !important;
 }
 
+.video-wrap {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 .video-frame {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -188,6 +193,8 @@ header h1 {
   height: 0;
 }
 
+.video-frame object,
+.video-frame embed,
 .video-frame > iframe {
   position: absolute;
   top: 0;
