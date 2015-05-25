@@ -55,6 +55,9 @@ Modules - reusable parts of our design
   clear: both;
 }
 
+.timeline-filters {
+  margin-left: 60px;
+}
 /* -------------------------------- 
 
 Main components 
@@ -107,7 +110,15 @@ header h1 {
     left: 50%;
     margin-left: -2px;
   }
+
+  .timeline-filters {
+    position: relative;
+    left: 50%;
+    margin-left: -122px;
+  }
 }
+
+
 
 .cd-timeline-block {
   position: relative;
@@ -156,14 +167,18 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
-  background: #75ce66;
+
+.cd-timeline-img.cd-picture,
+.filter-picture {
+  background: #75ce66 !important;
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
+.cd-timeline-img.cd-movie,
+.filter-movie {
+  background: #c03b44 !important;
 }
-.cd-timeline-img.cd-location {
-  background: #f0ca45;
+.cd-timeline-img.cd-location,
+.filter-location {
+  background: #f0ca45 !important;
 }
 @media only screen and (min-width: 800px) {
   .cd-timeline-img {
@@ -271,9 +286,9 @@ header h1 {
   margin: 1em 0;
   line-height: 1.6;
 }
-.cd-timeline-content .cd-read-more {
-  float: right;
-    color: white;
+
+.cd-read-more {
+  color: white;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
   background-color: #e43563;
   background-image: -moz-linear-gradient(top,#e6416d,#e22356);
@@ -292,6 +307,12 @@ header h1 {
   font-size: 0.9375rem;
   border-radius: 3px;
   margin-right: 6px;
+}
+
+
+
+.cd-timeline-content .cd-read-more {
+  float: right;
 }
 
 .no-touch .cd-timeline-content .cd-read-more:hover {
