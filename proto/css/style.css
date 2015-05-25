@@ -190,9 +190,21 @@ header h1 {
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
+  
+  .cssanimations .cd-timeline-block.is-hidden {
+    display:none;
+
+  }
+  .cssanimations .cd-timeline-block {
+    display:block;
+
+  }
+  .cssanimations .cd-timeline-block.is-hidden,
   .cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;
   }
+  
+  .cssanimations .cd-timeline-block.bounce-in,
   .cssanimations .cd-timeline-img.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-1 0.6s;
@@ -388,9 +400,11 @@ header h1 {
     right: 122%;
     text-align: right;
   }
+  .cssanimations .cd-timeline-block.is-hidden,
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
   }
+  .cssanimations .cd-timeline-block.bounce-in,
   .cssanimations .cd-timeline-content.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-2 0.6s;
