@@ -180,6 +180,30 @@ header h1 {
 .filter-location {
   background: #f0ca45 !important;
 }
+
+.video-frame {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.video-frame > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cssanimations .cd-timeline-block.is-hidden {
+  display:none;
+}
+
+.cssanimations .cd-timeline-block {
+  display:block;
+}
+
 @media only screen and (min-width: 800px) {
   .cd-timeline-img {
     width: 60px;
@@ -191,14 +215,6 @@ header h1 {
     -webkit-backface-visibility: hidden;
   }
   
-  .cssanimations .cd-timeline-block.is-hidden {
-    display:none;
-
-  }
-  .cssanimations .cd-timeline-block {
-    display:block;
-
-  }
   .cssanimations .cd-timeline-block.is-hidden,
   .cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;
