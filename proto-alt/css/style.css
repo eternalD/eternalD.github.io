@@ -37,6 +37,15 @@ h1, h2 {
   font-weight: bold;
 }
 
+/*#a1:target > *,
+#a2:target > *,
+#a3:target > *,
+#a4:target > *,
+#a5:target > *,
+#a6:target > * {
+  display: none !important;
+}*/
+
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -112,7 +121,9 @@ header h1 {
   font-size: 12px;
   line-height: 1.4;
   padding:5px 10px;
-  
+  a {
+    color: #000;
+  }
 }
 @media only screen and (min-width: 800px) {
   #cd-timeline {
@@ -131,7 +142,7 @@ header h1 {
   }
 
   .cd-timeline-separator {
-    margin:15px auto;
+    margin:25px auto;
     left: 50%;
     
     -webkit-transform: translateZ(0);
