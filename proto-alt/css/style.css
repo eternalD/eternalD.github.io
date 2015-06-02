@@ -27,7 +27,7 @@ a {
   text-decoration: none;
   font-family: Arial,"Helvetica Neue","HelveticaNeue",Helvetica,"Lucida Grande",sans-serif;
 
-  
+
 }
 
 
@@ -125,6 +125,9 @@ header h1 {
   font-size: 12px;
   line-height: 1.4;
   padding:5px 10px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  margin:25px 0;
 }
 @media only screen and (min-width: 800px) {
   #cd-timeline {
@@ -146,8 +149,7 @@ header h1 {
     margin:25px auto;
     left: 50%;
     
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
+    
   
   }
 }
