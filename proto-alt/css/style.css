@@ -41,14 +41,14 @@ h1, h2 {
   font-weight: bold;
 }
 
-/*#a1:target > *,
+#a1:target > *,
 #a2:target > *,
 #a3:target > *,
 #a4:target > *,
 #a5:target > *,
 #a6:target > * {
   display: none !important;
-}*/
+}
 
 /* -------------------------------- 
 
