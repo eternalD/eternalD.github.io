@@ -146,6 +146,8 @@ header h1 {
   padding:5px 10px;
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  backface-visibility: hidden;
   margin:25px 0;
   color:#107cb6;
 }
@@ -423,9 +425,10 @@ header h1 {
   float: right;
 }
 
-.no-touch .cd-timeline-content .cd-read-more:hover {
+/*.no-touch .cd-timeline-content .cd-read-more:hover {
   background-color: #bac4cb;
-}
+}*/
+
 .cd-timeline-content .cd-date {
   float: left;
   padding: .8em 0;
