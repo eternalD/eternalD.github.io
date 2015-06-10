@@ -67,6 +67,11 @@ Modules - reusable parts of our design
   transform: translateZ(0);
   backface-visibility: hidden;
 }
+
+.timeline-filters a {
+  display: inline-block;
+  margin-bottom: 10px;
+}
 /* -------------------------------- 
 
 Main components 
