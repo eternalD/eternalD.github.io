@@ -41,15 +41,6 @@ h1, h2 {
   font-weight: bold;
 }
 
-#a1:target > *,
-#a2:target > *,
-#a3:target > *,
-#a4:target > *,
-#a5:target > *,
-#a6:target > * {
-  display: none !important;
-}
-
 
 /* -------------------------------- 
 
@@ -70,7 +61,11 @@ Modules - reusable parts of our design
 }
 
 .timeline-filters {
-  margin-left: 60px;
+  margin-bottom: 20px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 /* -------------------------------- 
 
@@ -169,9 +164,7 @@ header h1 {
   }
 
   .timeline-filters {
-    position: relative;
-    left: 50%;
-    margin-left: -122px;
+    
   }
 
   .cd-timeline-separator {
