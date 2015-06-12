@@ -34,7 +34,10 @@ jQuery(document).ready(function($){
 		}
 	});
 
-
+  $('.cd-toggle').click(function(e) {
+    e.preventDefault();
+    $('.toggle').toggleClass('is-shown');
+  });
 
 	//on scolling, show/animate timeline blocks when enter the viewport
 	$(window).on('scroll', function(){

@@ -98,6 +98,28 @@ header h1 {
   padding-top:8px;
   color:#fff;
 }
+
+.cd-toggle .fa {
+  font-size: 16px !important;
+  padding-top: 0;
+}
+
+.toggle {
+  display: none;
+}
+
+.is-shown {
+  display: block;
+}
+
+.timeline-filters-label {
+  padding-right: 1.4rem;
+}
+
+@media only screen and (min-width: 500px) {
+  
+}
+
 @media only screen and (min-width: 800px) {
   header {
     height: 300px;
@@ -111,9 +133,15 @@ header h1 {
   .fa {
     font-size: 22px !important;    
     padding-left: 11px;
-    
-   
   }
+  .cd-toggle {
+    display: none !important; 
+  }
+
+  .toggle {
+    display: inline-block;
+  }
+  
 }
 
 #cd-timeline {
