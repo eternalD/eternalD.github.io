@@ -114,6 +114,7 @@ header h1 {
 
 .timeline-filters-label {
   padding-right: 1.4rem;
+  display: block;
 }
 
 @media only screen and (min-width: 500px) {
