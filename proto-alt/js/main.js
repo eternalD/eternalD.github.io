@@ -36,6 +36,7 @@ jQuery(document).ready(function($){
 
   $('.cd-toggle').click(function(e) {
     e.preventDefault();
+    $('.timeline-filters').find('.toggle-arrow').toggleClass('is-hidden');
     $('.timeline-filters').find('.toggle-button').wrapAll('<div></div>').toggleClass('is-hidden');
   });
 
