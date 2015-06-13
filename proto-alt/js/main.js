@@ -36,7 +36,7 @@ jQuery(document).ready(function($){
 
   $('.cd-toggle').click(function(e) {
     e.preventDefault();
-    $('.toggle').toggleClass('is-shown');
+    $('.timeline-filters').find('.toggle-button').wrapAll('<div></div>').toggleClass('is-hidden');
   });
 
 	//on scolling, show/animate timeline blocks when enter the viewport

@@ -104,13 +104,12 @@ header h1 {
   padding-top: 0;
 }
 
-.toggle {
+.is-hidden,
+.timeline-filters .is-hidden {
   display: none;
 }
 
-.is-shown {
-  display: block;
-}
+
 
 .timeline-filters-label {
   padding-right: 1.4rem;
@@ -121,9 +120,10 @@ header h1 {
   .cd-toggle {
     display: none !important; 
   }
-
-  .toggle {
-    display: inline-block !important;
+  
+  .timeline-filters .new-line,
+  .timeline-filters .is-hidden {
+    display: inline-block;
   }
 }
 
