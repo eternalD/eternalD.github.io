@@ -181,6 +181,21 @@ header h1 {
   color:#107cb6;
 }
 
+.cd-timeline-separator-large {
+  
+  
+  z-index: 10;
+  font-size: 22px;
+  line-height: 1.4;
+  padding:5px 0;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  
+  color:#107cb6;
+}
+
 .cd-timeline-separator em {
 
   display: block;
@@ -189,7 +204,7 @@ header h1 {
 }
 @media only screen and (min-width: 800px) {
   #cd-timeline {
-    margin-top: 3em;
+    margin-top: 1em;
     margin-bottom: 3em;
   }
   #cd-timeline::before {
