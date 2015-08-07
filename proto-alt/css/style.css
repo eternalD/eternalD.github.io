@@ -138,8 +138,9 @@ header h1 {
   }
 
   .fa {
-    font-size: 22px !important;    
+    font-size: 24px !important;
     padding-left: 11px;
+    padding-top: 6px;
   }
   
   
