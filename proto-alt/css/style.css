@@ -51,8 +51,9 @@ Modules - reusable parts of our design
   max-width: 1170px;
   margin: 0 auto;
 }
+
+/* clearfix */
 .cd-container::after {
-  /* clearfix */
   content: '';
   display: table;
   clear: both;
@@ -75,7 +76,7 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
-/*Only for prototyping. Styles should be built on Kela's stylesheets */
+/*Only for prototyping. Styles should be built on Kela's stylesheets or use Kela header styles on HTML markup */
 header {
   height: 200px;
   line-height: 200px;
@@ -105,6 +106,7 @@ header h1 {
   padding-top: 0;
 }
 
+/*Prototyping helpers.*/
 .is-hidden,
 .timeline-filters .is-hidden {
   display: none;
@@ -173,6 +175,7 @@ header h1 {
   position: relative;
   margin: 2em 0;
 }
+/*clearfix */
 .cd-timeline-block:after {
   content: "";
   display: table;
@@ -194,9 +197,9 @@ header h1 {
   border-radius: 50%;
   box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
+
 .cd-timeline-img img {
   display: block;
-  /*display: none;*/
   width: 24px;
   height: 24px;
   position: relative;
@@ -204,7 +207,6 @@ header h1 {
   top: 50%;
   margin-left: -12px;
   margin-top: -12px;
-  
   background-color: #fff;
 }
 
@@ -212,36 +214,15 @@ header h1 {
 .filter-picture {
   background: #107cb6 !important;
 }
+
 .cd-timeline-img.cd-movie,
 .filter-movie {
   background: #c03b44 !important;
 }
+
 .cd-timeline-img.cd-location,
 .filter-location {
   background: #f0ca45 !important;
-}
-
-/**/
-.video-wrap {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-.video-frame {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-
-.video-frame object,
-.video-frame embed,
-.video-frame > iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .cd-timeline-content {
@@ -266,11 +247,13 @@ header h1 {
               inset 3px 0 0 #f0ca45;
 }
 
+/*clearfix */
 .cd-timeline-content:after {
   content: "";
   display: table;
   clear: both;
 }
+
 .cd-timeline-content h2 {
   color: #303e49;
 }
@@ -309,10 +292,6 @@ header h1 {
   float: right;
 }
 
-/*.no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
-}*/
-
 .cd-timeline-content .cd-date {
   float: left;
   padding: .8em 0;
@@ -337,7 +316,30 @@ header h1 {
   border-right: 7px solid #f0ca45;
 }
 
-/*Only for prototyping. Functionality should be built. Hides unnecessary buttons on small breakpoint for filter navigation */
+/*video container for prototype*/
+.video-wrap {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.video-frame {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.video-frame object,
+.video-frame embed,
+.video-frame > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Only for prototyping. Functionality should be built. Hides unnecessary buttons on small breakpoint for filter navigation. Full functionality should be built instead of using this */
 @media only screen and (min-width: 500px) {
   
   .cd-toggle {
