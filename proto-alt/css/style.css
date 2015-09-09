@@ -1,7 +1,7 @@
 /* -------------------------------- 
 
 Primary style
-DO NOT USE. USE KELA STYLES INSTEAD
+DO NOT USE IN PRODUCTION. USE KELA GLOBAL STYLES INSTEAD
 -------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
@@ -106,7 +106,7 @@ header h1 {
   padding-top: 0;
 }
 
-/*Prototyping helpers.*/
+/*Prototyping helpers. */
 .is-hidden,
 .timeline-filters .is-hidden {
   display: none;
