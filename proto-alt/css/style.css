@@ -88,7 +88,7 @@ header h1 {
   font-size: 1.125rem;
 }
 
-/*Prototyping only. Use Kela fontawesome library. Make sure that the same icons are available there.
+/*Prototyping only. Use Kela fontawesome library. Make sure that the same icons are available there.*/
 .fa {
   width: 32px;
   font-size: 14px !important;
