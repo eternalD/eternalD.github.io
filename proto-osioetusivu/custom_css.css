@@ -1341,6 +1341,9 @@ h2.shortcut-heading > span {
     background: #f15b23;
     color:#fff;
     margin-bottom: 63px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .aui .headline-image--alt img {
