@@ -101,6 +101,10 @@ ul.highlighted>li>a {
     
 }
 
+.frontpage__teaser p {
+    font-size: 14px;
+}
+
 @media (max-width: 767px) {
 .aui body {
     padding-left: 15px;
