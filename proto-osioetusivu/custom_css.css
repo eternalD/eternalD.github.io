@@ -114,6 +114,7 @@ ul.highlighted>li>a {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 }
 @media (max-width: 767px) {
 .aui .container-full-width, .aui #banner, .aui #bottom-navigation, .aui #footer, .aui .carousel-wrapper {
@@ -432,8 +433,24 @@ ul.highlighted>li>a {
     margin-left: 0;
     margin-right: 0;
 }
+
+/*dirty hack*/
+.aui .span4.mobile-onecolumn,
+.aui .span6.mobile-onecolumn {
+    width: 100% !important;
+    float: none !important;
+    margin-left:0 !important;
+}
 }
 @media (max-width: 767px) {
+/*dirty hack*/
+
+.aui .span4.mobile-onecolumn,
+.aui .span6.mobile-onecolumn {
+    width: 100% !important;
+    float: none !important;
+    margin-left:0 !important;
+}
 .aui .site-navigation-menubar > .dropdown .dropdown-menu {
     border-radius: 4px;
     box-sizing: border-box;
