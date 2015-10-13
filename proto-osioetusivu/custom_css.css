@@ -84,6 +84,11 @@ html {
     margin: 0;
 }
 
+/*Dirty hack for proto*/
+ul.highlighted>li>a {
+    font-size: 14px !important;
+}
+
 .feed__tab.is-active {
     background-color: #e3f2f8;
     border-radius: 4px;
