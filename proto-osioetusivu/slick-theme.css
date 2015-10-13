@@ -40,7 +40,7 @@
     color: transparent;
     border: none;
     outline: none;
-    background: #107cb6;
+    background: transparent;
     z-index: 1000;
 }
 .slick-prev:hover,
@@ -50,7 +50,7 @@
 {
     color: transparent;
     outline: none;
-    background: #107cb6;
+    background: transparent;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -73,7 +73,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #107cb6;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
