@@ -1,3 +1,22 @@
+/*Only for prototype*/
+@font-face {
+    font-family:'fontawesome-alloy';
+    src:url("fonts/fontawesome-alloy.eot");
+    src:url("fonts/fontawesome-alloy.eot?#iefix") format("embedded-opentype"),
+    url("fonts/fontawesome-alloy.woff") format("woff"),
+    url("fonts/fontawesome-alloy.ttf") format("truetype"),
+    url("fonts/fontawesome-alloy.svg#fontawesome-alloy") format("svg");
+    font-weight:normal;
+    font-style:normal
+}
+
+/*Only for prototype*/
+@font-face {
+    font-family: "kela";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/KelaWeb/kela.eot?#iefix") format("embedded-opentype"), url("../fonts/KelaWeb/kela.woff") format("woff"), url("../fonts/KelaWeb/kela.ttf") format("truetype"), url("../fonts/KelaWeb/kela.svg#kela") format("svg");
+}
 
 @font-face {
     font-family: "MetaWeb-Bold";
@@ -11,6 +30,7 @@
     font-weight: bold;
     src: url("../fonts/MetaWeb-Normal/MetaWeb-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/MetaWeb-Normal/MetaWeb-Normal.woff") format("woff");
 }
+
 @font-face {
     font-family: "kela";
     font-style: normal;
@@ -30,6 +50,30 @@ html {
 .aui body {
     border-top: 5px solid #c1d732;
 }
+
+.group {
+    margin-bottom: 63px;
+}
+.feed__tab {
+    display: inline-block;
+    width: 33%;
+    min-width: 122px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.feed__tab.is-active {
+    background-color: #e3f2f8;
+    border-radius: 4px;
+}
+.feed__link  {
+    text-align: center;
+    display: block;
+}
+.feed__link--is-active {
+    
+}
+
 @media (max-width: 767px) {
 .aui body {
     padding-left: 15px;
