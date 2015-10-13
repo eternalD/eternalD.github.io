@@ -89,6 +89,7 @@ ul.highlighted>li>a {
     font-size: 14px !important;
 }
 
+
 .feed__tab.is-active {
     background-color: #e3f2f8;
     border-radius: 4px;
@@ -101,6 +102,9 @@ ul.highlighted>li>a {
     
 }
 
+.frontpage__teaser {
+    margin-bottom: 20px;
+}
 .frontpage__teaser p {
     font-size: 14px;
 }
