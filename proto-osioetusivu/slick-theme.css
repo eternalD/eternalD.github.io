@@ -189,7 +189,7 @@
     width: 30px;
     height: 30px;
 
-    content: '•';
+    content: '\2022';
     text-align: center;
 
     opacity: .25;
