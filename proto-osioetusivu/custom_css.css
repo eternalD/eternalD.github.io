@@ -84,7 +84,21 @@ html {
     font-size: 14px;
 }
 
+
+
 /*Dirty hack for proto*/
+.is-hidden {
+    display: none;
+}
+
+.aui .heading-bold {
+    font-family: MetaWeb-Bold,Arial,"Helvetica Neue","HelveticaNeue",Helvetica,"Lucida Grande",sans-serif;
+}
+
+iframe.youtube-player {
+    height: 290px !important;
+}
+
 ul.highlighted>li>a {
     font-size: 14px !important;
 }

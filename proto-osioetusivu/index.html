@@ -4116,7 +4116,7 @@ border-style:
                   <div class="row-fluid">
                     
                     <div class="popular span12">
-                    <h4>Suosituinta nyt</h4>
+                    <h4 class="heading-bold">Suosituinta nyt</h4>
                       <div class="well">
                         
                         <ul class="highlighted unstyled">
@@ -4131,7 +4131,7 @@ border-style:
                     </div>
                     
                     <div class="ask-kela span12">
-                      <h4>Kysy Kelasta</h4>
+                      <h4 class="heading-bold">Kysy Kelasta</h4>
                       <div class="well">
                         <ul class="highlighted unstyled">
                           <li><i class="icon-chevron-right"></i> <a href="http://www.kela.fi/isan-vapaat_isyysvapaa-ja-isyysraha">Opiskelu hoitovapaalla</a></li>
@@ -4144,7 +4144,10 @@ border-style:
                       </div>
                     </div>    
                     
-                    <div class="recent-news span12">
+                  </div>
+                </div>
+
+                <div class="recent-news span12">
                       
                       <section id="current-topics"> 
                         <h2><a href="/ajankohtaista-henkiloasiakkaat">Ajankohtaista</a></h2>
@@ -4176,8 +4179,6 @@ border-style:
 
                       
                     </div>
-                  </div>
-                </div>
               </div>
  
             </div>
@@ -5655,8 +5656,7 @@ border-style:
           <div class="span6 mobile-onecolumn">
             <section class="kelafi-article">
       
-
-            <h4>Pikakela: Mitä tukia lapsiperheelle?</h4>
+            <h4 class="heading-bold">Pikakela: Mitä tukia lapsiperheelle?</h4>
             <iframe allowfullscreen="" class="youtube-player" frameborder="0" height="315" src="https://www.youtube.com/embed/NPem8pJSvoU" title="YouTube video player - Kelakanava" width="560"></iframe>
 
             </section>
@@ -5664,18 +5664,22 @@ border-style:
           </div>
           <div class="span6 mobile-onecolumn">
           <section id="current-topics"> 
-            <h4 style="padding-left: 14px"><a href="/ajankohtaista-henkiloasiakkaat">Puhuttua muualla</a></h4>
+            <h4 class="heading-bold" style="padding-left: 14px"><a href="/ajankohtaista-henkiloasiakkaat">Puhuttua muualla</a></h4>
             <ul clas="tab-feed">
-              <li class="feed__tab is-active"><a href="#" class="feed__link">Twitter</a></li>
-              <li class="feed__tab"><a href="#" class="feed__link">Facebook</a></li>
-              <li class="feed__tab"><a href="#" class="feed__link">Instagram</a></li>
+              <li class="feed__tab feed__tab--twitter"><a href="#" class="feed__link feed__link--twitter">Twitter</a></li>
+              <li class="feed__tab feed__tab--fb"><a href="#" class="feed__link feed__link--fb">Facebook</a></li>
+              <li class="feed__tab feed__tab--flickr"><a href="#" class="feed__link feed__link--flickr">Flickr</a></li>
             </ul>
-            <div class="tab__content tab-content--twitter">
+            <div class="tab__content tab__content--twitter is-hidden">
               <img src="twitter.png" alt="" />
             </div>
 
-            <div class="tab__content tab-content--facebook">
-              
+            <div class="tab__content tab__content--fb is-hidden">
+              facebook
+            </div>
+
+            <div class="tab__content tab__content--flickr is-hidden">
+              Flickr
             </div>
 
           </section>
@@ -6855,8 +6859,41 @@ f.parentNode.insertBefore(e,f);},1);
     $(document).ready(function(){
       $('.carousel').slick({
         arrows: true,
-        dots: true
+        
       });
+      
+      $('.feed__link--twitter').click();
+
+      $('.feed__link--twitter').click(function(e) {
+        $(e.preventDefault());
+        $('.feed__tab--twitter').addClass('is-active');
+        $('.feed__tab--fb').removeClass('is-active');
+        $('.feed__tab--flickr').removeClass('is-active');
+        $('.tab__content--twitter').removeClass('is-hidden');
+        $('.tab__content--fb').addClass('is-hidden');
+        $('.tab__content--flickr').addClass('is-hidden');
+      });
+
+      $('.feed__link--fb').click(function(e) {
+        $(e.preventDefault());
+        $('.feed__tab--fb').addClass('is-active');
+        $('.feed__tab--twitter').removeClass('is-active');
+        $('.feed__tab--flickr').removeClass('is-active');
+        $('.tab__content--fb').removeClass('is-hidden');
+        $('.tab__content--twitter').addClass('is-hidden');
+        $('.tab__content--flickr').addClass('is-hidden');
+      });
+
+      $('.feed__link--flickr').click(function(e) {
+        $(e.preventDefault());
+        $('.feed__tab--flickr').addClass('is-active');
+        $('.feed__tab--fb').removeClass('is-active');
+        $('.feed__tab--twitter').removeClass('is-active');
+        $('.tab__content--flickr').removeClass('is-hidden');
+        $('.tab__content--fb').addClass('is-hidden');
+        $('.tab__content--twitter').addClass('is-hidden');
+      });
+
     });
 </script>
 </body>
