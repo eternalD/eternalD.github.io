@@ -117,9 +117,6 @@ ul.highlighted>li>a {
     margin-left: 0 !important;
 }
 
-
-
-
 .feed__tab.is-active {
     background-color: #e3f2f8;
     border-radius: 4px;
@@ -151,6 +148,10 @@ ul.highlighted>li>a {
         background-position: 69.5% 0;
         border-bottom-right-radius: 0;
 
+    }
+
+    .recent-news {
+        margin-top: 63px;
     }
 }
 
