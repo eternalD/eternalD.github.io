@@ -78,16 +78,31 @@ html {
 }
 .feed__tab {
     display: inline-block;
-    width: 33%;
-    min-width: 122px;
+    width: 25%;
     padding: 5px 10px;
     margin: 0;
+    font-size: 14px;
 }
 
 /*Dirty hack for proto*/
 ul.highlighted>li>a {
     font-size: 14px !important;
 }
+
+.aui .span6.mobile-onecolumn h4 {
+    margin: 0 0 8px;
+}
+
+.aui .span6.mobile-onecolumn .carousel h4 {
+    margin: 32px 0 8px;
+}
+
+.ask-kela,
+.recent-news {
+    margin-left: 0 !important;
+}
+
+
 
 
 .feed__tab.is-active {
@@ -97,9 +112,6 @@ ul.highlighted>li>a {
 .feed__link  {
     text-align: center;
     display: block;
-}
-.feed__link--is-active {
-    
 }
 
 .frontpage__teaser {
@@ -115,6 +127,10 @@ ul.highlighted>li>a {
     padding-right: 15px;
 }
 
+/*proto hack*/
+.hide-mobile {
+    display: none !important;
+}
 }
 @media (max-width: 767px) {
 .aui .container-full-width, .aui #banner, .aui #bottom-navigation, .aui #footer, .aui .carousel-wrapper {
