@@ -6862,8 +6862,6 @@ f.parentNode.insertBefore(e,f);},1);
         
       });
       
-      $('.feed__link--twitter').click();
-
       $('.feed__link--twitter').click(function(e) {
         $(e.preventDefault());
         $('.feed__tab--twitter').addClass('is-active');
@@ -6894,6 +6892,8 @@ f.parentNode.insertBefore(e,f);},1);
         $('.tab__content--twitter').addClass('is-hidden');
       });
 
+      $('.feed__link--twitter').click();
+      
     });
 </script>
 </body>
