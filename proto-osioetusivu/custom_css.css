@@ -128,6 +128,14 @@ ul.highlighted>li>a {
     display: block;
 }
 
+
+.aui .feed__link:link,
+.aui .feed__link:hover,
+.aui .feed__link:visited,
+.aui .feed__link:active {
+    text-decoration: none;
+}
+
 .frontpage__teaser {
     margin-bottom: 20px;
 }
