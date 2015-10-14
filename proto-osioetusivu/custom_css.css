@@ -155,7 +155,7 @@ ul.highlighted>li>a {
     .headline-image--alt {
         background-image: url("http://www.kela.fi/kelafi-theme/css/../images/illu-nokka-small.png");
         background-repeat: no-repeat;
-        background-position: 67.5% 0;
+        background-position: 66.5% 0;
         border-bottom-right-radius: 0;
         
     }
@@ -1482,6 +1482,10 @@ h2.shortcut-heading > span {
 }
 .headline-image > figcaption > p {
     font-size: 14px;
+}
+
+.headline-image--alt {
+    padding-bottom: 14px;
 }
 }
 @media (max-width: 767px) {
