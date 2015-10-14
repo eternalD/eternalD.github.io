@@ -73,9 +73,12 @@ html {
     border-top: 5px solid #c1d732;
 }
 
-.group {
-    margin-bottom: 63px;
+/*Used for tabbed nav*/
+.aui .tab-feed {
+    margin: 0 0 24px 0;    
 }
+
+/*Used for tabbed nav*/
 .feed__tab {
     display: inline-block;
     width: 25%;
@@ -84,59 +87,60 @@ html {
     font-size: 14px;
 }
 
+/*Used for tabbed nav*/
+.feed__tab.is-active {
+    background-color: #e3f2f8;
+    border-radius: 4px;
+}
+/*Used for tabbed nav*/
+.feed__link  {
+    text-align: center;
+    display: block;
+}
 
+/*Used for tabbed nav*/
+.aui .feed__link:link,
+.aui .feed__link:hover,
+.aui .feed__link:visited,
+.aui .feed__link:active {
+    text-decoration: none;
+}
 
 /*Dirty hack for proto*/
 .is-hidden {
     display: none;
 }
 
+/*Dirty hack for proto*/
 .aui .heading-bold {
     font-family: MetaWeb-Bold,Arial,"Helvetica Neue","HelveticaNeue",Helvetica,"Lucida Grande",sans-serif;
     font-size: 20px;
 }
 
+/*Dirty hack for proto*/
 iframe.youtube-player {
     height: 290px !important;
 }
 
+/*Dirty hack for proto*/
 ul.highlighted>li>a {
     font-size: 14px !important;
 }
 
+/*Dirty hack for proto*/
 .aui .span6.mobile-onecolumn h4 {
     margin: 0 0 8px;
 }
 
+/*Dirty hack for proto*/
 .aui .span6.mobile-onecolumn .carousel h4 {
     margin: 32px 0 8px;
 }
 
+/*Dirty hack for proto*/
 .ask-kela,
 .recent-news {
     margin-left: 0 !important;
-}
-
-.aui .tab-feed {
-    margin: 0 0 24px 0;    
-}
-
-
-.feed__tab.is-active {
-    background-color: #e3f2f8;
-    border-radius: 4px;
-}
-.feed__link  {
-    text-align: center;
-    display: block;
-}
-
-
-.aui .feed__link:link,
-.aui .feed__link:hover,
-.aui .feed__link:visited,
-.aui .feed__link:active {
-    text-decoration: none;
 }
 
 .frontpage__teaser {
@@ -147,18 +151,28 @@ ul.highlighted>li>a {
 }
 
 @media (min-width: 979px) {
+    /*Used for orange element */
     .headline-image--alt {
         background-image: url("http://www.kela.fi/kelafi-theme/css/../images/illu-nokka-small.png");
         background-repeat: no-repeat;
-        background-position: 69.5% 0;
+        background-position: 67.5% 0;
         border-bottom-right-radius: 0;
-
+        
     }
-    .heading-hack {
-        padding-left: 14px;
-    }
+    
+    /*Dirty hack for proto*/
     .recent-news {
-        margin-top: 63px;
+        margin-top: 40px;
+    }
+    
+    /*Dirty hack for proto*/
+    .ask-kela {
+        margin-top: 20px;
+    }
+    
+    /*Dirty hack for proto*/
+    .group {
+        margin-bottom: 63px;
     }
 }
 
@@ -168,7 +182,7 @@ ul.highlighted>li>a {
     padding-right: 15px;
 }
 
-/*proto hack*/
+/*Dirty hack for proto*/
 .hide-mobile {
     display: none !important;
 }
@@ -491,7 +505,7 @@ ul.highlighted>li>a {
     margin-right: 0;
 }
 
-/*dirty hack*/
+/*Dirty hack for proto*/
 .aui .span4.mobile-onecolumn,
 .aui .span6.mobile-onecolumn {
     width: 100% !important;
@@ -501,8 +515,7 @@ ul.highlighted>li>a {
 }
 }
 @media (max-width: 767px) {
-/*dirty hack*/
-
+/*Dirty hack for proto*/
 .aui .span4.mobile-onecolumn,
 .aui .span6.mobile-onecolumn {
     width: 100% !important;
@@ -1397,6 +1410,10 @@ h2.shortcut-heading > span {
 .headline-image > img {
     border-radius: 4px 4px 0 0;
 }
+
+.headline-image--alt {
+    padding-bottom: 14px;
+}
 }
 .headline-image > figcaption {
     background: #f15b23 url("../images/illu-nokka-small.png") no-repeat scroll 0 0;
@@ -1421,11 +1438,11 @@ h2.shortcut-heading > span {
     margin: 0;
 }
 
-.headline-image--alt > figcaption > a,
 .headline-image > figcaption > a {
     color: white;
 }
 
+/*orange element*/
 .headline-image--alt {
     background-color: #f15b23;
     color:#fff;
@@ -1435,6 +1452,7 @@ h2.shortcut-heading > span {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     font-size: 14px;
+    
 }
 
 .aui .headline-image--alt img {
@@ -1444,21 +1462,17 @@ h2.shortcut-heading > span {
 
 }
 
+/**/
 .headline-image--alt .span6 > ul {
     padding: 15px 25px;
     padding-bottom: 0;
     margin-bottom: 0;
+    -moz-hyphens: auto;
+    hyphens: auto;
 
 }
-
 .headline-image--alt > img {
     border-radius 4px;
-}
-
-.headline-image--alt > figcaption {
-    background: #f15b23;
-    background-image: none !important;
-    border-radius: 0 4px 0 0;
 }
 
 @media (max-width: 979px) {
@@ -1477,6 +1491,7 @@ h2.shortcut-heading > span {
     padding: 20px;
     position: static;
 }
+
 .headline-image > figcaption > h2 {
     margin: 0 0 8px;
 }
