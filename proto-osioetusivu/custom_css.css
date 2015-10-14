@@ -216,12 +216,14 @@ ul.highlighted>li>a {
     padding-top: 20px;
 }
 
-.frontpage__teaser {
-    margin-bottom: 63px;
-}
+
 @media (max-width: 767px) {
 .aui #banner {
     padding-top: 10px;
+}
+
+.frontpage__teaser {
+    margin-bottom: 63px;
 }
 }
 .aui .site-title {
@@ -517,7 +519,9 @@ ul.highlighted>li>a {
     margin-left: 0;
     margin-right: 0;
 }
-
+.frontpage__teaser {
+    margin-bottom: 63px;
+}
 /*Dirty hack for proto*/
 .aui .mobile-onecolumn {
     width: 100% !important;
