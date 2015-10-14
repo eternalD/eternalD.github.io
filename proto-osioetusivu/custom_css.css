@@ -149,7 +149,9 @@ ul.highlighted>li>a {
         border-bottom-right-radius: 0;
 
     }
-
+    .heading-hack {
+        padding-left: 14px;
+    }
     .recent-news {
         margin-top: 63px;
     }
@@ -490,6 +492,7 @@ ul.highlighted>li>a {
     width: 100% !important;
     float: none !important;
     margin-left:0 !important;
+    margin-bottom: 20px;
 }
 }
 @media (max-width: 767px) {
@@ -500,6 +503,7 @@ ul.highlighted>li>a {
     width: 100% !important;
     float: none !important;
     margin-left:0 !important;
+    margin-bottom: 20px;
 }
 .aui .site-navigation-menubar > .dropdown .dropdown-menu {
     border-radius: 4px;
