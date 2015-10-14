@@ -138,14 +138,18 @@ ul.highlighted>li>a {
 }
 
 /*Dirty hack for proto*/
+.aui .video-article,
+.aui .recent-news,
+.aui .popular,
+.aui .some-channels {
+    margin-bottom: 40px !important;
+}
+
 .ask-kela,
 .recent-news {
     margin-left: 0 !important;
 }
 
-.frontpage__teaser {
-    margin-bottom: 20px;
-}
 .frontpage__teaser p {
     font-size: 14px;
 }
@@ -173,6 +177,11 @@ ul.highlighted>li>a {
     /*Dirty hack for proto*/
     .group {
         margin-bottom: 63px;
+    }
+    .bgimage--cover {
+        background-repeat: no-repeat; 
+        background-size: cover;
+        padding-bottom: 30%;
     }
 }
 
@@ -205,6 +214,10 @@ ul.highlighted>li>a {
 .aui #banner {
     padding-bottom: 10px;
     padding-top: 20px;
+}
+
+.frontpage__teaser {
+    margin-bottom: 63px;
 }
 @media (max-width: 767px) {
 .aui #banner {
@@ -506,9 +519,14 @@ ul.highlighted>li>a {
 }
 
 /*Dirty hack for proto*/
-.aui .span4.mobile-onecolumn,
-.aui .span6.mobile-onecolumn,
-.aui .span8.mobile-onecolumn {
+.aui .mobile-onecolumn {
+    width: 100% !important;
+    float: none !important;
+    margin-left:0 !important;
+    margin-bottom: 20px;
+}
+
+.aui .tablet-onecolumn {
     width: 100% !important;
     float: none !important;
     margin-left:0 !important;
@@ -517,9 +535,7 @@ ul.highlighted>li>a {
 }
 @media (max-width: 767px) {
 /*Dirty hack for proto*/
-.aui .span4.mobile-onecolumn,
-.aui .span6.mobile-onecolumn,
-.aui .span8.mobile-onecolumn {
+.aui .mobile-onecolumn {
     width: 100% !important;
     float: none !important;
     margin-left:0 !important;
@@ -631,6 +647,8 @@ ul.highlighted>li>a {
     padding-left: 4px;
     padding-right: 4px;
 }
+
+
 }
 @media (max-width: 767px) {
 .aui .site-navigation-menubar > .btn-group > .btn:first-child {
